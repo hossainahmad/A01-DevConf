@@ -76,3 +76,56 @@ ul li a{
     margin-top: 20px;
     padding: 16px 40px;
 }
+
+/* Hero Section End */
+
+/* Speaker Section Start */
+
+.speaker-container{
+    max-width: 1200px;
+    margin:70px auto;
+    padding: 0 20px;
+}
+.speaker-container h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+.speaker-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker{
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.speaker img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.speaker-content{
+    padding: 22px;
+}
+
+.speaker-content span{
+    font-size: 12px;
+    color: #575757;
+}
+
+.speaker-content h3{
+    margin: 10px 0;
+}
+.speaker-content p{
+    font-size: 12px;
+    color: #2563EB;
+    text-transform: uppercase;
+}
+
+/* Speaker Card Section End */
+
