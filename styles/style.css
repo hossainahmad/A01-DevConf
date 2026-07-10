@@ -25,7 +25,7 @@ header{
     margin: auto;
 }
 
-ul{
+.main-nav{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -129,3 +129,93 @@ ul li a{
 
 /* Speaker Card Section End */
 
+/* Pricing Card Section Start */
+
+.pricing-container{
+    max-width: 1020px;
+    display:flex;
+    justify-content: space-between;
+    margin: 48px auto;
+    padding: 0 20px;
+}
+.pricing-heading{
+    margin-top: 135px;
+}
+.pricing-heading h1{
+    text-align: center;
+    color: #0D1B2A;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pricing-heading p{
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 10px 0;
+}
+
+.pricing-card{
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    border-radius: 15px ;
+}
+
+.pricing-card span{
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.pricing-card p{
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+.pricing-card ul{
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.featured-card{
+    background-color: #0D1B2A;
+    color: #fff;
+}
+.featured-card span{
+    color: #93C5FD;
+}
+.featured-card p{
+    color: #fff;
+}
+.featured-card ul{
+    color: #fff;
+}
+.common-btn{
+    margin-top: 20px;
+}
+
+.btn-standard{
+    padding: 10px 80px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+}
+
+.btn-pro{
+    padding: 10px 90px;
+}
+.btn-contact{
+     padding: 10px 80px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #0D1B2A;
+    border: 1px solid #b9bdc1;
+}
+
+/* Pricing Card Section End */
