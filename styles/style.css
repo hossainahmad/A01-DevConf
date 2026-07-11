@@ -219,3 +219,197 @@ hr{
 }
 
 /* Pricing Card Section End */
+
+/* AI Section CSS Start*/
+
+.contact{
+
+    padding:80px 20px;
+}
+
+/* Flex Container */
+
+.container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    gap:40px;
+
+    align-items:stretch;
+}
+
+/* Left Side */
+
+.newsletter{
+
+    flex:1;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+}
+
+.newsletter h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+}
+
+.newsletter p{
+
+    line-height:1.7;
+
+    margin-bottom:30px;
+}
+
+.newsletter-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+}
+
+.newsletter-form input{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+}
+
+.newsletter-form button{
+
+    padding:15px;
+
+    background:#111827;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+
+    background:black;
+}
+
+/* Right Side */
+
+.venue{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.venue h2{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+}
+
+.venue p{
+
+    margin-bottom:20px;
+
+    color:#6b7280;
+}
+
+.venue iframe{
+
+    width:100%;
+
+    height:100%;
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.container{
+
+    flex-direction:column;
+}
+
+.newsletter,
+.venue{
+
+    width:100%;
+}
+
+.venue iframe{
+
+    min-height:300px;
+}
+
+}
+/* <!-- Newsletter and Map Section Using AI End --> */
+
+/* Foooter Section Start */
+
+.footer{
+    background-color: #162332;
+    padding: 30px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-logo img{
+    height: 40px;
+}
+.right-social img{
+    height: 35px;
+    padding: 0 8px;
+}
+
+.footer hr{
+    width: 80%;
+    margin: 40px auto 20px;
+    border: none;
+    border-top: 1px solid #828385;
+}
+
+.copyright{
+    color:#cbd5e1;
+    font-size:15px;
+    text-align: center;
+}
+
+/* Footer Section End */
