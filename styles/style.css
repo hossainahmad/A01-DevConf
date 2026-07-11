@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -170,6 +170,7 @@ hr{
     font-size: 13px;
     color: #888888;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .pricing-card p{
@@ -195,9 +196,6 @@ hr{
 .featured-card ul{
     color: #fff;
 }
-.common-btn{
-    margin-top: 20px;
-}
 
 .btn-standard{
     padding: 10px 80px;
@@ -205,10 +203,12 @@ hr{
     background-color: #fff;
     color: #2563EB;
     border: 2px solid #2563EB;
+    margin-top: 20px;
 }
 
 .btn-pro{
     padding: 10px 90px;
+    margin-top: 20px;
 }
 .btn-contact{
      padding: 10px 80px;
@@ -216,6 +216,7 @@ hr{
     background-color: #fff;
     color: #0D1B2A;
     border: 1px solid #b9bdc1;
+    margin-top: 20px;
 }
 
 /* Pricing Card Section End */
