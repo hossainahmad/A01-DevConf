@@ -1,7 +1,7 @@
 
 # 🚀 DevConf 2026 - Conference Landing Page
 
-A modern, fully responsive conference landing page built using **HTML5** and **CSS3**. The project showcases a fictional developer conference with a clean user interface, responsive layouts, and modern web design techniques.
+A modern conference landing page built using **HTML5** and **CSS3**. The project showcases a fictional developer conference with a clean user interface, responsive layouts, and modern web design techniques.
 
 ## 🌐 Live Demo
 
@@ -9,9 +9,9 @@ A modern, fully responsive conference landing page built using **HTML5** and **C
 
 ---
 
-##  AI Generated Code Prompts.
+##  AI-Generated Code Prompts.
 
-Generate two section in one main Section side by side by side using disply flex. Subscribe to our Newsletter form and map location of the DevConf vanue using HTML and CSS.
+Generate two section in one main Section side by side by side using display flex. Subscribe to our Newsletter form and map location of the DevConf venue using HTML and CSS.
 
 ---
 
